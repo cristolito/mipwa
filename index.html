@@ -1,0 +1,21 @@
+<!-- Tu index debe contener la estructura que generalmente tiene un HTML cualquiera, donde
+llames a tu manifest y tu style.
+Dentro de tu etiqueta body del HTML agrega un encabezado denominado Mis Notas, junto
+con un textarea que tenga un id que se llame nota y un botón con evento onclick que se llame
+guardarNota(), por último, llama a tu scrip denominado app.js -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mis Notas</title>
+</head>
+<body>
+    <h1>Mis Notas</h1>
+    <textarea id="nota"></textarea>
+    <button onclick="guardarNota()">Guardar Nota</button>
+    <script src="app.js"></script>
+</body>
+</html>
